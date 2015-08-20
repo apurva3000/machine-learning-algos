@@ -11,6 +11,7 @@ aa = a*a;
 
 b = [2,-4;-4,2];
 bb = b*b;
+
 b1 = [10,20;20,10];
 bb1 = b1*b1;
 
@@ -20,8 +21,9 @@ p2=0.6;
 p11=0.1;
 p22=0.9;
 
-g1 = Discri15(X,aa,bb,mean1,mean21,p1,p2);
+% Checking GitHub Application.
 
+g1 = Discri15(X,aa,bb,mean1,mean21,p1,p2);
 g11= Discri15(X,aa,bb,mean1,mean21,p11,p22);
 
 g2= Discri15(X,aa,bb,mean1,mean22,p1,p2);
@@ -35,7 +37,6 @@ g5 = Discri15(X,aa,aa,mean1,mean21,p1,p2);
 g6 = Discri15(X,aa,aa,mean1,mean22,p1,p2);
 
 g7 = Discri15(X,bb,bb,mean1,mean22,p1,p2);
-
 g71 = Discri15(X,bb,bb,mean1,mean22,p11,p22);
 
 Gimage1 = reshape(g1,11,11);

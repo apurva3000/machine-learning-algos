@@ -1,7 +1,9 @@
-% This problem demonstrates three types of classifiers usage - Naive Bayes, Min Variance Gaussian %Classifier and Regularized. 
+% This problem demonstrates three types of classifiers usage - Naive Bayes, Min Variance Gaussian 
+% Classifier and Regularized. 
 
-%The dataset used is Iris and then splitted into test and train sets:(below is the citation for it)
-%Bache, K. & Lichman, M. (2013). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
+% The dataset used is Iris and then splitted into test and train sets:(below is the citation for it)
+% Bache, K. & Lichman, M. (2013). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. 
+% Irvine, CA: University of California, School of Information and Computer Science.
 
 
 %%
