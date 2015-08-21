@@ -1,6 +1,7 @@
 %% Load the abalone data (citation below) and divide it into train and test set
-%Dataset citation
-%Bache, K. & Lichman, M. (2013). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
+% Dataset citation
+% Bache, K. & Lichman, M. (2013). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. 
+% Irvine, CA: University of California, School of Information and Computer Science.
 load abalone.data
 train = abalone(1:3133,:);
 test = abalone(3133:4177,:);
